@@ -1,0 +1,39 @@
+$grid-static-width: 1200px;
+
+@mixin container($_width : $grid-static-width) {
+  margin: 0 auto;
+  width: $_width;
+}
+
+@mixin col($_width: $grid-static-width / 12 , $_padding:false,$_margin:false) {
+  width: $_width;
+  float: left;
+  @if ($_padding) {
+    padding: $_padding;
+  }
+  @if ($_margin) {
+    margin: $_margin;
+  }
+}
+
+@mixin pull($_width: $grid-static-width / 12, $_padding:false,$_margin:false) {
+  width: $_width;
+  float: right;
+  @if ($_padding) {
+    padding: $_padding;
+  }
+  @if ($_margin) {
+    margin: $_margin;
+  }
+}
+
+@mixin od($_wight, $_height, $_n){
+  width: $_wight;
+  height: 1px;
+  &:nth-of-type(#{$_n}n) {
+    clear: both;
+    width: 100%;
+    height: $_height;
+  }
+}
+
