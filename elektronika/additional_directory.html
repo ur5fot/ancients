@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>list products</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="headerBackground"></div>
+<div class="mainCarrierDiv_withLeftMenu">
+    <div class="clearfix">
+        <header>
+            <div class="headerTop clearfix">
+                <div class="authorizationMenu">
+                    <ul>
+                        <li><a href="#">Вход</a></li>
+                        <li><a href="#">Регистрация</a></li>
+                    </ul>
+                </div>
+                <div class="socialLink">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a></li>
+                        <li><a href="#"><i class="fa fa-2x fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-2x fa-youtube-square"></i></a></li>
+                        <li><a href="#"><i class="fa fa-2x fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="headerBottom clearfix">
+                <a class="logo" href="#"><img src="img/sprite/logo.png" /></a>
+                <div class="search">
+                    <form><input type="text" placeholder="" name="name">
+                        <div class="sendButton">
+                            <button><i class="fa fa-search"></i>Отправить</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="phone"><i class="fa fa-4x fa-phone-square"></i><span> 000-000-00</span></div>
+            </div>
+        </header>
+        <!-- Контентная часть -->
+        <div class="contentCarrierDiv">
+            <div class="mainMenu clearfix">
+                <ul>
+                    <li><a class="home" href="#"><i class="fa fa-home"></i></a></li>
+                    <li><a class="" href="#">Каталог 1 <i class="fa fa-angle-double-down"></i></a>
+                        <ul>
+                            <li><a class="" href="#">Каталог 2</a></li>
+                            <li><a class="" href="#">Каталог 2</a></li>
+                            <li><a class="" href="#">Каталог 2</a></li>
+                            <li><a class="" href="#">Каталог 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="" href="#">Каталог 1 <i class="fa fa-angle-double-down"></i></a></li>
+                    <li><a class="" href="#">Каталог 1 <i class="fa fa-angle-double-down"></i></a></li>
+                    <li><a class="" href="#">Каталог 1 <i class="fa fa-angle-double-down"></i></a></li>
+                </ul>
+                <div class="cart">
+                    <a href="#" ><i class="fa fa-shopping-cart"></i><span>Корзина</span></a>
+                </div>
+            </div>
+            <div class="breadcrumbs clearfix">
+                <ul>
+                    <li><a class="" href="#">Главная</a></li>
+                    <li>/</li>
+                    <li><a class="active" href="#">Камеры</a></li>
+                </ul>
+            </div>
+            <div class="infoBlock clearfix">
+                <h3>Предложения</h3>
+                <div class="tags">
+                    <ul>
+                        <li><a class="" href="#">Все</a></li>
+                        <li><a class="" href="#">Камкодеры</a></li>
+                        <li><a class="" href="#">Камеры</a></li>
+                        <li><a class="" href="#">Телефоны</a></li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <div class="image"><p><img src="img/изображение.png" /></p></div>
+                    <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, saepe ullam! At dolorum labore laborum nulla similique. Animi aspernatur cumque deserunt dolorem dolores ducimus enim et expedita fugit illo impedit libero maiores neque nobis numquam perspiciatis possimus, praesentium quas qui quis quisquam rem reprehenderit saepe, similique totam, vel voluptatem! Aut delectus doloribus, eius enim ipsa quasi recusandae ut. Aliquid amet, autem deserunt expedita ipsa officiis quia. Asperiores aspernatur corporis facilis natus obcaecati omnis possimus provident quae, quam sed voluptatem, voluptatum!</p></div>
+                </div>
+            </div>
+            <div class="catalogBlock clearfix">
+                <div class="gridView_selectForm clearfix">
+                    <div class="gridView">
+                        <button><i class="fa fa-th"></i></button>
+                        <button class="active"><i class="fa fa-list-ul"></i></button>
+                    </div>
+                    <div class="selectForm">
+                        <form action="#" method="post">
+                            <div class="title">Показать</div>
+                    <span class="selectBlock">
+                        <select size="1"  name="view">
+                            <option disabled>Выберите героя</option>
+                            <option value="Чебурашка">Чебурашка</option>
+                            <option selected value="Крокодил Гена">Крокодил Гена</option>
+                        </select>
+                    </span>
+                            <div class="title">Сортировка</div>
+                    <span class="selectBlock">
+                        <select size="1"  name="sorting">
+                            <option disabled>Выберите героя</option>
+                            <option value="Чебурашка">Чебурашка</option>
+                            <option selected value="Крокодил Гена">Крокодил Гена</option>
+                        </select>
+                    </span>
+                        </form>
+                    </div>
+                </div>
+                <div class="offerListBlock clearfix">
+                    <div class="offerView">
+                        <p class="label">Новинка</p>
+                        <p class="image"><img src="img/изображение.png" /></p>
+                        <p class="price">$200</p>
+                        <p class="title"><a href="#">Телефон Хороший товар ну очень хороши</a></p>
+                        <p class="description">Хороший товар ну очень хороши
+                            Хороший товар ну очень хороши</p>
+                        <p class="links">
+                            <a href="#" ><i class="fa fa-bars"></i></a>
+                            <a href="#" ><i class="fa fa-info"></i></a>
+                            <a href="#" ><i class="fa fa-eye"></i></a>
+                        </p>
+                    </div>
+                    <div class="od"></div>
+                    <div class="offerView">
+                        <p class="label">Новинка</p>
+                        <p class="image"><img src="img/изображение.png" /></p>
+                        <p class="price">$200</p>
+                        <p class="title"><a href="#">Телефон Хороший товар ну очень хороши</a></p>
+                        <p class="description">Хороший товар ну очень хороши
+                            Хороший товар ну очень хороши</p>
+                        <p class="links">
+                            <a href="#" ><i class="fa fa-bars"></i></a>
+                            <a href="#" ><i class="fa fa-info"></i></a>
+                            <a href="#" ><i class="fa fa-eye"></i></a>
+                        </p>
+                    </div>
+                    <div class="od"></div>
+                    <div class="offerView">
+                        <p class="label">Новинка</p>
+                        <p class="image"><img src="img/изображение.png" /></p>
+                        <p class="price">$200</p>
+                        <p class="title"><a href="#">Телефон Хороший товар ну очень хороши</a></p>
+                        <p class="description">Хороший товар ну очень хороши
+                            Хороший товар ну очень хороши</p>
+                        <p class="links">
+                            <a href="#" ><i class="fa fa-bars"></i></a>
+                            <a href="#" ><i class="fa fa-info"></i></a>
+                            <a href="#" ><i class="fa fa-eye"></i></a>
+                        </p>
+                    </div>
+                    <div class="od"></div>
+                    <div class="offerView">
+                        <p class="label">Новинка</p>
+                        <p class="image"><img src="img/изображение.png" /></p>
+                        <p class="price">$200</p>
+                        <p class="title"><a href="#">Телефон Хороший товар ну очень хороши</a></p>
+                        <p class="description">Хороший товар ну очень хороши
+                            Хороший товар ну очень хороши</p>
+                        <p class="links">
+                            <a href="#" ><i class="fa fa-bars"></i></a>
+                            <a href="#" ><i class="fa fa-info"></i></a>
+                            <a href="#" ><i class="fa fa-eye"></i></a>
+                        </p>
+                    </div>
+                    <div class="od"></div>
+                    <div class="offerView">
+                        <p class="label">Новинка</p>
+                        <p class="image"><img src="img/изображение.png" /></p>
+                        <p class="price">$200</p>
+                        <p class="title"><a href="#">Телефон Хороший товар ну очень хороши</a></p>
+                        <p class="description">Хороший товар ну очень хороши
+                            Хороший товар ну очень хороши</p>
+                        <p class="links">
+                            <a href="#" ><i class="fa fa-bars"></i></a>
+                            <a href="#" ><i class="fa fa-info"></i></a>
+                            <a href="#" ><i class="fa fa-eye"></i></a>
+                        </p>
+                    </div>
+                    <div class="od"></div>
+                    <div class="offerView">
+                        <p class="label">Новинка</p>
+                        <p class="image"><img src="img/изображение.png" /></p>
+                        <p class="price">$200</p>
+                        <p class="title"><a href="#">Телефон Хороший товар ну очень хороши</a></p>
+                        <p class="description">Хороший товар ну очень хороши
+                            Хороший товар ну очень хороши</p>
+                        <p class="links">
+                            <a href="#" ><i class="fa fa-bars"></i></a>
+                            <a href="#" ><i class="fa fa-info"></i></a>
+                            <a href="#" ><i class="fa fa-eye"></i></a>
+                        </p>
+                    </div>
+                    <div class="od"></div>
+                    <div class="offerView">
+                        <p class="label">Новинка</p>
+                        <p class="image"><img src="img/изображение.png" /></p>
+                        <p class="price">$200</p>
+                        <p class="title"><a href="#">Телефон Хороший товар ну очень хороши</a></p>
+                        <p class="description">Хороший товар ну очень хороши
+                            Хороший товар ну очень хороши</p>
+                        <p class="links">
+                            <a href="#" ><i class="fa fa-bars"></i></a>
+                            <a href="#" ><i class="fa fa-info"></i></a>
+                            <a href="#" ><i class="fa fa-eye"></i></a>
+                        </p>
+                    </div>
+                    <div class="od"></div>
+                    <div class="offerView">
+                        <p class="label">Новинка</p>
+                        <p class="image"><img src="img/изображение.png" /></p>
+                        <p class="price">$200</p>
+                        <p class="title"><a href="#">Телефон Хороший товар ну очень хороши</a></p>
+                        <p class="description">Хороший товар ну очень хороши
+                            Хороший товар ну очень хороши</p>
+                        <p class="links">
+                            <a href="#" ><i class="fa fa-bars"></i></a>
+                            <a href="#" ><i class="fa fa-info"></i></a>
+                            <a href="#" ><i class="fa fa-eye"></i></a>
+                        </p>
+                    </div>
+                    <div class="od"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Контентная часть //-->
+
+    </div>
+
+
+</div>
+<footer>
+    <div class="clearfix">
+        <div class="mainCarrierDiv_withLeftMenu">
+            <div class="footerTopBlock clearfix">
+                <div class="footerTextBlock">
+                    <h3>О нас</h3>
+                    <p>Правда, специалисты отмечают, что партисипативное планирование как всегда непредсказуемо.
+                        Высокая информативность все еще интересна для многих. Не факт, что производство изящно
+                        специфицирует коллективный опрос, опираясь на опыт западных коллег. Маркетинговая
+                        коммуникация разнородно индуцирует конструктивный фактор коммуникации. Не факт,
+                        что производство изящно специфицирует коллективный опрос, опираясь на опыт западных коллег.
+                        Маркетинговая коммуникация разнородно индуцирует конструктивный фактор</p>
+                </div>
+                <div class="footerTextBlock">
+                    <h3>О нас</h3>
+                    <ul>
+                        <li><i class="fa fa-x fa-space-shuttle"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, quos?</li>
+                        <li><i class="fa fa-x fa-spinner"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto assumenda quidem rerum sapiente unde!</li>
+                        <li><i class="fa fa-x fa-comment"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa et fugiat nihil omnis optio porro soluta sunt velit voluptates.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerMiddleBlock clearfix">
+                <div class="footerMenuBlock">
+                    <h3>О нас</h3>
+                    <ul>
+                        <li><a href="#">Каталог 1</a></li>
+                        <li><a href="#">Каталог 1</a></li>
+                        <li><a href="#">Каталог 1</a></li>
+                        <li><a href="#">Каталог 1</a></li>
+                        <li><a href="#">Каталог 1</a></li>
+                        <li><a href="#">Каталог 1</a></li>
+                    </ul>
+                </div>
+                <div class="footerMenuBlock">
+                    <h3>О нас</h3>
+                    <ul>
+                        <li><a href="#">Каталог 1</a></li>
+                        <li><a href="#">Каталог 1</a></li>
+                        <li><a href="#">Каталог 1</a></li>
+                        <li><a href="#">Каталог 1</a></li>
+                        <li><a href="#">Каталог 1</a></li>
+                        <li><a href="#">Каталог 1</a></li>
+                    </ul>
+                </div>
+                <div class="footerMenuBlock">
+                    <h3>Мой аккаунт</h3>
+                    <ul>
+                        <li><a href="#">Мой аккаунт</a></li>
+                        <li><a href="#">Мой адрес</a></li>
+                        <li><a href="#">Мой корзина</a></li>
+                    </ul>
+                </div>
+                <div class="footerMenuBlock">
+                    <h3>Следите за нами</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-x fa-twitter"></i>twitter</a></li>
+                        <li><a href="#"><i class="fa fa-x fa-facebook-square"></i>facebook</a></li>
+                        <li><a href="#"><i class="fa fa-x fa-vk"></i>vkontakte</a></li>
+                        <li><a href="#"><i class="fa fa-x fa-google-plus"></i>google +</a></li>
+                        <li><a href="#"><i class="fa fa-x fa-youtube-square"></i>youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerBottomBlock">
+                <div class="copyright">
+                    <p>&copy; Copyright LeMag™ 2010 - 2016. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

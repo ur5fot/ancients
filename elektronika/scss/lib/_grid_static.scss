@@ -5,29 +5,51 @@ $grid-static-width: 1200px;
   width: $_width;
 }
 
-@mixin col($_width: $grid-static-width / 12 , $_padding:false,$_margin:false) {
-  width: $_width;
+@mixin col($w: false, $p:false,$pt:false,$pr:false,$pb:false,$pl:false) {
   float: left;
-  @if ($_padding) {
-    padding: $_padding;
+  @if($w){
+    width: $w;
   }
-  @if ($_margin) {
-    margin: $_margin;
+  @if ($p) {
+    padding: $p;
+  }
+  @if ($pt) {
+    padding-top: $pt;
+  }
+  @if ($pr) {
+    padding-right: $pr;
+  }
+  @if ($pb) {
+    padding-bottom: $pb;
+  }
+  @if ($pl) {
+    padding-left: $pl;
   }
 }
 
-@mixin pull($_width: $grid-static-width / 12, $_padding:false,$_margin:false) {
-  width: $_width;
+@mixin pull($w: false / 12, $p:false,$pt:false,$pr:false,$pb:false,$pl:false) {
   float: right;
-  @if ($_padding) {
-    padding: $_padding;
+  @if($w){
+    width: $w;
   }
-  @if ($_margin) {
-    margin: $_margin;
+  @if ($p) {
+    padding: $p;
+  }
+  @if ($pt) {
+    padding-top: $pt;
+  }
+  @if ($pr) {
+    padding-right: $pr;
+  }
+  @if ($pb) {
+    padding-bottom: $pb;
+  }
+  @if ($pl) {
+    padding-left: $pl;
   }
 }
 
-@mixin od($_wight, $_height, $_n){
+@mixin od($_wight, $_height, $_n) {
   width: $_wight;
   height: 1px;
   &:nth-of-type(#{$_n}n) {
